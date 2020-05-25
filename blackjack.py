@@ -267,7 +267,6 @@ class Bank():
             raise AccountNotFoundError()
         return self.players[name]
 
-
 def run_hands(table, bank):
 
     player_score = table.player_rounds(bank)
@@ -289,7 +288,7 @@ def run_game(bank):
     winner = run_hands(table, bank)
 
     if winner == 'player':
-        bank.deposit('player', table.pot)
+        bank.deposit('player', table.pot())
 
 
 def run():
