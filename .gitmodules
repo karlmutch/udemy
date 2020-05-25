@@ -1,3 +1,6 @@
 [submodule "deep-learning-prerequisites-the-numpy-stack-in-python"]
 	path = deep-learning-prerequisites-the-numpy-stack-in-python
 	url = https://github.com/karlmutch/machine_learning_examples.git
+[submodule "Complete-Python-3-Bootcamp"]
+	path = Complete-Python-3-Bootcamp
+	url = https://github.com/Pierian-Data/Complete-Python-3-Bootcamp.git
